@@ -1,6 +1,13 @@
 .home-container {
   padding-top: 100px;
-  height: calc(100vh - 159px);
+  height: calc(100vh - 254px);
+}
+
+
+@media only screen and (max-height: 770px) {
+  .home-content {
+    margin-top: -60px;
+  }
 }
 
 .home-container h1 {
