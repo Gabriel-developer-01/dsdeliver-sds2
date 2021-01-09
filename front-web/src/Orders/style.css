@@ -56,7 +56,7 @@
 }
 
 .orders-list-items {
-  width: 75%; /* alterado para corrigir bugs*/
+  width: 68%; /* alterado para corrigir bugs*/
   display: grid;
   grid-template-columns: repeat(auto-fill, 235px);
   grid-gap: 20px 15px;
