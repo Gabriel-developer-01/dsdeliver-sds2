@@ -19,7 +19,7 @@ function Orders() {
       return sum + item.price;
     },0);
 
-    useEffect(() => {
+    useEffect(() => { // estou usando o useEffect para listar meus produtos após a renderização.
         fetchProducts()
         .then(response => setProducts(response.data))
         .catch(() => {
